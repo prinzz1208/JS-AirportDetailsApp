@@ -1,0 +1,67 @@
+body{
+    font-size: 1.2em;
+    overflow: visible;
+}
+
+.navbar .airport{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    left: 15%;
+}
+.tagline{
+    font-size: 20px;
+    color: salmon;
+    position: absolute;
+    left: 30%;
+}
+.account::after{
+    content: ">";
+    position: relative;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    margin: auto 0;
+
+    margin-left: 10px;
+    left: 5px;
+    transform: rotate(90deg);
+    letter-spacing: 2;
+}
+.img{
+    background-image: url("./assets/img/bg.jpg") ;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    color: white;
+}
+.img .container{
+    height: inherit;
+    width: inherit;
+}
+i.fa {
+    color: black;
+    border: none;
+}
+input.form-control{
+    border: none;
+}
+#search{
+
+    box-shadow: none;
+}
+.form-group{
+    width: 80vh;
+    margin: 0 auto;
+}
+
+.alert{
+    margin: 10px auto;
+    width: 80%;
+}
+
+.alert span{
+    background-color: rgb(12, 170, 12);
+    padding: 0 5px;
+    border-radius: 2px;
+}
